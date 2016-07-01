@@ -1,0 +1,50 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+input{
+    border: 0;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.option{
+    height: 100%;
+    background: #616161;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.excel{
+    background: #fff;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#goodsList,.nineList{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    position: relative;
+}
+th{
+    width: 25%;
+}
+.fixTable thead {
+    background-color: #fff;
+}
+.nineItem{
+    height: 200px;
+    padding-bottom: 15px;
+    padding-left: 0;
+}
+.nineContent{
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+    padding: 20px;
+}
